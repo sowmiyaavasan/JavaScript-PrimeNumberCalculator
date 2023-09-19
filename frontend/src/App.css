@@ -1,0 +1,50 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+  margin: 0 2%;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 100px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.calculate-button {
+  padding: 10px 10px;
+  width: 20%;
+  background-color: lightseagreen;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline;
+  margin: 0 5%;
+}
+
+button.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  margin: 0 2%;
+}
+
+.error {
+  color: red;
+  margin: 1% 4%;
+  font-weight: bold;
+}
